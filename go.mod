@@ -2,7 +2,10 @@ module github.com/bradgwest/argocd-notification-template
 
 go 1.21.1
 
-require github.com/Masterminds/sprig/v3 v3.2.3
+require (
+	github.com/Masterminds/sprig/v3 v3.2.3
+	k8s.io/api v0.28.2
+)
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect

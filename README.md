@@ -1,13 +1,12 @@
-# Argo CD Notification Template Render
+# Go Templater
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Notes](#notes)
 
-Simple tool for rendering Argo CD notification
-[templates](https://argo-cd.readthedocs.io/en/stable/operator-manual/notifications/templates/),
-useful for quickly prototyping.
+Simple tool for rendering [`text/template`s](https://pkg.go.dev/text/template)
+useful for prototyping. Includes [`sprig`](http://masterminds.github.io/sprig/)
+functions.
 
 ## Getting Started
 
@@ -21,13 +20,3 @@ useful for quickly prototyping.
 
 ```sh
 ```
-
-## Notes
-
-At the time of writing, it's not clear from the official Argo CD docs on
-[notifications](https://argo-cd.readthedocs.io/en/stable/operator-manual/notifications/templates/)
-that users can leverage [`sprig`](http://masterminds.github.io/sprig/)
-functions in their templates.
-
-
-
